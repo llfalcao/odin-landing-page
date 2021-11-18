@@ -1,1 +1,11 @@
-@import url("framework.css");
+@import url('framework.css');
+
+.logo {
+  cursor: pointer;
+}
+
+.logo svg {
+  width: 3rem;
+  height: auto;
+  fill: #fff;
+}

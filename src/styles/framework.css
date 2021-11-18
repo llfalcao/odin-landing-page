@@ -26,18 +26,106 @@ body {
   display: grid;
   min-height: 100vh;
   grid-template: 0.2fr 1.5fr 1.2fr 0.8fr / repeat(12, 1fr);
-  grid-gap: 20px;
-  background: #555;
 }
 
-.row {
+.flex {
+  display: flex;
+}
+
+.flex-row {
   flex-direction: row;
 }
 
-.col {
+.flex-col {
   flex-direction: column;
 }
 
 .fw {
   grid-column: 1 / span 12;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+/* Colors */
+.bg-primary {
+  background-color: #1f2937;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.text-light {
+  color: #f9faf8;
+}
+
+.text-light-90 {
+  color: #e5e7eb;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+/* Spacing */
+.mw1360 {
+  max-width: 1360px;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.ph-5 {
+  padding: 0 5rem;
+}
+
+/* Positioning */
+/* center horizontally */
+.hc {
+  margin: 0 auto;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-jsb {
+  justify-content: space-between;
+}
+
+.flex-jc {
+  justify-content: center;
+}
+
+.flex-aic {
+  align-items: center;
+}
+
+/* Typography */
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 18px;
 }
