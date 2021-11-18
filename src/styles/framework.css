@@ -98,6 +98,14 @@ body {
   padding: 0 5rem;
 }
 
+.pl-5 {
+  padding-left: 5rem;
+}
+
+.pr-5 {
+  padding-right: 5rem;
+}
+
 /* Positioning */
 /* center horizontally */
 .hc {
