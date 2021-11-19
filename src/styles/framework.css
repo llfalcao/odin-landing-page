@@ -40,10 +40,6 @@ body {
   flex-direction: column;
 }
 
-.fw {
-  grid-column: 1 / span 12;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -98,12 +94,24 @@ body {
 }
 
 /* Spacing */
+.fw {
+  grid-column: 1 / span 12;
+}
+
 .w50 {
   width: 50%;
 }
 
+.h100 {
+  height: 100%;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.gap-2 {
+  gap: 2rem;
 }
 
 .p-5 {
@@ -111,7 +119,8 @@ body {
 }
 
 .ph-5 {
-  padding: 0 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pl-5 {
