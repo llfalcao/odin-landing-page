@@ -36,6 +36,10 @@
   max-width: 1000px;
 }
 
+.hero__text {
+  width: 500px;
+}
+
 .gallery__item {
   height: 400px;
   overflow: hidden;
