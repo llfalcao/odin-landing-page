@@ -25,7 +25,7 @@ textarea {
 body {
   display: grid;
   min-height: 100vh;
-  grid-template: 0.2fr 1fr 1.2fr 0.8fr / repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 
 .flex {
@@ -42,6 +42,14 @@ body {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-2 {
+  border-radius: 1rem;
+}
+
+.bsw-small {
+  box-shadow: 0 2px 4px #222;
 }
 
 /* Colors */
@@ -67,6 +75,11 @@ body {
 
 .text-light-90 {
   color: #e5e7eb;
+}
+
+.bgr-overlay {
+  position: relative;
+  background: linear-gradient(to top, #000000aa 4rem, transparent);
 }
 
 /* Buttons */
@@ -98,8 +111,16 @@ body {
   grid-column: 1 / span 12;
 }
 
+.w25 {
+  width: 25%;
+}
+
 .w50 {
   width: 50%;
+}
+
+.w100 {
+  width: 100%;
 }
 
 .h100 {
@@ -112,6 +133,10 @@ body {
 
 .gap-2 {
   gap: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
 }
 
 .p-5 {
@@ -136,6 +161,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
 .mt-5 {
   margin-top: 5rem;
 }
@@ -145,6 +174,14 @@ body {
 }
 
 /* Positioning */
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
 .hc {
   margin-left: auto;
   margin-right: auto;

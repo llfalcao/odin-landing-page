@@ -1,21 +1,25 @@
 import './styles/main.css';
+import castle from './images/castle.jpg';
+import mansion from './images/mansion.jpg';
+import sanctum from './images/sanctum-sanctorum.jpg';
+import batcave from './images/batcave.jpg';
 
 const galleryItems = [
   {
-    image: '',
-    text: 'this is some subtext under an illustration or image',
+    image: castle,
+    text: 'Latveria Castle',
   },
   {
-    image: '',
-    text: 'this is some subtext under an illustration or image',
+    image: mansion,
+    text: 'The X-Mansion',
   },
   {
-    image: '',
-    text: 'this is some subtext under an illustration or image',
+    image: sanctum,
+    text: 'Sanctum Sanctorum',
   },
   {
-    image: '',
-    text: 'this is some subtext under an illustration or image',
+    image: batcave,
+    text: 'The Batcave',
   },
 ];
 
@@ -25,9 +29,9 @@ galleryItems.forEach((item) => {
   gallery.insertAdjacentHTML(
     'beforeend',
     `
-      <div class="gallery__item">
-        <img class="gallery__image" src="${item.image}" alt="" />
-        <p class="gallery__description">${item.text}</p>
+      <div class="w25 rounded-2 rel gallery__item">
+        <img class="w100 h100 bsw-small gallery__image" src="${item.image}" alt="" />
+        <p class="w100 abs p-1 bgr-overlay flex flex-aic text-light gallery__description">${item.text}</p>
       </div>
     `,
   );

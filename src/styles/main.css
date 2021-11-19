@@ -19,7 +19,7 @@
   background-size: cover;
   background-position: center 70%;
   background-attachment: fixed;
-  animation: slide 15s linear forwards;
+  animation: slide 15s ease-out forwards;
   text-shadow: 0 4px 4px #333;
 }
 
@@ -34,6 +34,27 @@
 
 .hero div {
   max-width: 1000px;
+}
+
+.gallery__item {
+  height: 400px;
+  overflow: hidden;
+}
+
+.gallery__image {
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.03);
+  transition: 0.7s ease-in-out;
+}
+
+.gallery__item:hover .gallery__image {
+  transform: scale(1);
+}
+
+.gallery__description {
+  bottom: 0;
+  height: 4rem;
 }
 
 .quote h2 {
