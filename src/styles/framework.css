@@ -25,7 +25,7 @@ textarea {
 body {
   display: grid;
   min-height: 100vh;
-  grid-template: 0.2fr 1.5fr 1.2fr 0.8fr / repeat(12, 1fr);
+  grid-template: 0.2fr 1fr 1.2fr 0.8fr / repeat(12, 1fr);
 }
 
 .flex {
@@ -57,6 +57,14 @@ body {
   background-color: #fff;
 }
 
+.bg-gray {
+  background-color: #e5e7eb;
+}
+
+.text-dark {
+  color: #1f2937;
+}
+
 .text-light {
   color: #f9faf8;
 }
@@ -77,11 +85,19 @@ body {
   color: #f9faf8;
 }
 
-/* Spacing */
-.mw1360 {
-  max-width: 1360px;
+.btn-primary:hover {
+  background-color: #4489f8;
 }
 
+.btn:active {
+  background-color: #2f78ec;
+}
+
+.btn:focus {
+  outline: 2px solid white;
+}
+
+/* Spacing */
 .w50 {
   width: 50%;
 }
@@ -106,10 +122,23 @@ body {
   padding-right: 5rem;
 }
 
+.mv-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
 /* Positioning */
-/* center horizontally */
 .hc {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex-center {
@@ -129,9 +158,21 @@ body {
   align-items: center;
 }
 
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
 /* Typography */
 h1 {
   font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 p {

@@ -1,5 +1,9 @@
 @import url('framework.css');
 
+.section-wrapper {
+  max-width: 1360px;
+}
+
 .logo {
   cursor: pointer;
 }
@@ -8,4 +12,31 @@
   width: 3rem;
   height: auto;
   fill: #fff;
+}
+
+.hero {
+  background: url('../images/hero_bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+  background-attachment: fixed;
+  animation: slide 15s linear forwards;
+  text-shadow: 0 4px 4px #333;
+}
+
+@keyframes slide {
+  from {
+    background-position: center top;
+  }
+  to {
+    background-position: center bottom;
+  }
+}
+
+.hero div {
+  max-width: 1000px;
+}
+
+.quote h2 {
+  font-style: italic;
+  font-weight: 300;
 }
