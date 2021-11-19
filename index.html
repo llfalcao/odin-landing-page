@@ -7,16 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIGZpbGw9IiNmZmZmZmYiPgogPHRpdGxlPnRyYXZlbCBqYWRpPC90aXRsZT4KCiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPGcgaWQ9InN2Z182Ij4KICAgPHBhdGggaWQ9InN2Z18xIiBkPSJtNjEuMDQ3OTcsMzIuMjAwMDlsLTE2LjA2NzE5LDE2LjcwMzIzbC0xMy4yODAzMSwtOC4xNDA3MmwtMjcuMjAwNDcsMzEuNzQ3MzlsMzAuMDMsMGExNC41MzE1NiwxNC4zNjkyOCAwIDEgMSAyOS4wNjMxMywwbDMxLjkwNjg3LDBsLTM0LjQ1MjAzLC00MC4zMDk5MXoiLz4KICAgPHBvbHlnb24gaWQ9InN2Z18yIiBwb2ludHM9IjU1LjMxNzgxNzY4Nzk4ODI4LDM1LjIyMjk4MDQ5OTI2NzU4IDQ2LjQ4Nzk2ODQ0NDgyNDIyLDI3LjQ5MDAwMTY3ODQ2Njc5NyAzNS41Mzk1MzU1MjI0NjA5NCw0MC43MzQ0ODc1MzM1NjkzMzYgNDQuNjM5NTMwMTgxODg0NzY2LDQ2LjMxNjI4OTkwMTczMzQgNTUuMzE3ODE3Njg3OTg4MjgsMzUuMjIyOTgwNDk5MjY3NTggIi8+CiAgPC9nPgogPC9nPgo8L3N2Zz4="
+    />
     <script defer src="./main.js"></script>
-    <title>Custom Grid Framework</title>
+
+    <title>Lairbnb</title>
   </head>
 
   <body>
     <header class="fw bg-primary text-light header">
-      <div class="flex flex-row flex-jsb flex-aic mw1360 hc">
+      <div class="flex flex-row flex-jsb flex-aic hc section-wrapper">
         <div class="ph-5 flex flex-row flex-center logo"></div>
         <nav class="navigation">
           <a href="#">header link one</a>
@@ -27,39 +32,39 @@
     </header>
 
     <section class="fw bg-primary text-light hero">
-      <div class="flex flex-row p-5 mw1360 hc">
+      <div class="flex flex-row hc mt-5 mb-5 section-wrapper">
         <div class="w50 hero__text">
-          <h1 class="hero__title">From underground caves to watchtowers</h1>
-          <p class="hero__subtext">
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast.
+          <h1 class="hero__title">From mansions to underground caves</h1>
+          <p class="mv-1 hero__subtext">
+            Live among the world's most famous superheroes <br />(or villains)
           </p>
-          <button type="button" class="btn btn-primary rounded">Sign up</button>
+          <button type="button" class="btn btn-primary rounded mv-1">
+            Sign up
+          </button>
         </div>
-        <div class="w50 hero__image">This is a placeholder for an image.</div>
       </div>
     </section>
 
     <section class="fw gallery">
-      <div class="mw1360 hc">
+      <div class="p-5 hc section-wrapper">
         <h2 class="section__title">Some random information.</h2>
         <div class="flex flex-row gallery__container"></div>
       </div>
     </section>
 
-    <section class="fw quote">
-      <div class="mw1360 hc">
+    <section class="fw bg-gray text-dark quote">
+      <div class="p-5 hc section-wrapper">
         <h2 class="quote__main">
           This is an inspiring quote, or a testimonial from a customer. Maybe
           it's just filling up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
         </h2>
-        <span class="quote__author">-Ymir Fritz</span>
+        <span class="f-right quote__author">-Ymir Fritz</span>
       </div>
     </section>
 
     <section class="fw cta">
-      <div class="flex flex-row mw1360 hc">
+      <div class="flex flex-row hc section-wrapper">
         <div class="cta__banner">
           <h3 class="cta__title">Call to action! It's time!</h3>
           <p class="cta__subtext">
@@ -71,7 +76,7 @@
     </section>
 
     <footer class="fw bg-primary text-light flex flex-row footer">
-      <div class="flex flex-row flex-center mw1360 hc">
+      <div class="flex flex-row flex-center hc section-wrapper">
         <div class="pr-5 flex flex-row flex-center logo"></div>
         <div class="footer__contact">
           <a href="#">
