@@ -52,6 +52,10 @@ body {
   box-shadow: 0 2px 4px #222;
 }
 
+.tsw-small {
+  text-shadow: 0 4px 4px #333;
+}
+
 /* Colors */
 .bg-primary {
   background-color: #1f2937;
@@ -227,4 +231,8 @@ h2 {
 
 p {
   font-size: 18px;
+}
+
+.ft-italic {
+  font-style: italic;
 }

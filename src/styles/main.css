@@ -20,7 +20,6 @@
   background-position: center 70%;
   background-attachment: fixed;
   animation: slide 15s ease-out forwards;
-  text-shadow: 0 4px 4px #333;
 }
 
 @keyframes slide {
@@ -62,6 +61,5 @@
 }
 
 .quote h2 {
-  font-style: italic;
   font-weight: 300;
 }
