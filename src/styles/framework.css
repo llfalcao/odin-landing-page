@@ -212,12 +212,8 @@ body {
   align-items: center;
 }
 
-.f-left {
-  float: left;
-}
-
-.f-right {
-  float: right;
+.txt-right {
+  text-align: right;
 }
 
 /* Typography */
