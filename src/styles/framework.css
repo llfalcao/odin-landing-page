@@ -49,7 +49,7 @@ body {
 }
 
 .bsw-small {
-  box-shadow: 0 2px 4px #222;
+  box-shadow: 0 4px 10px #999;
 }
 
 .tsw-small {
@@ -153,6 +153,11 @@ body {
 
 .p-1 {
   padding: 1rem;
+}
+
+.ph-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pv-2 {

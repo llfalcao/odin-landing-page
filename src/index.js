@@ -29,8 +29,8 @@ galleryItems.forEach((item) => {
   gallery.insertAdjacentHTML(
     'beforeend',
     `
-      <div class="w25 rounded-2 rel gallery__item">
-        <img class="w100 h100 bsw-small gallery__image" src="${item.image}" alt="" />
+      <div class="w25 bsw-small rounded-2 rel gallery__item">
+        <img class="w100 h100 gallery__image" src="${item.image}" alt="" />
         <p class="w100 abs p-1 bgr-overlay flex flex-aic text-light gallery__description">${item.text}</p>
       </div>
     `,
