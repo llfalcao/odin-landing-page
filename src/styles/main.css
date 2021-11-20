@@ -72,3 +72,16 @@
 .quote h2 {
   font-weight: 300;
 }
+
+.cta button {
+  font-size: 1.1rem;
+}
+
+.cta .section-wrapper {
+  max-width: 1000px;
+}
+
+.cta__subtext {
+  margin-top: 4px;
+  font-size: 1rem;
+}
