@@ -5,6 +5,7 @@
   "private": true,
   "author": "Luiz Falcao",
   "license": "MIT",
+  "homepage": "https://llfalcao.github.io/odin-landing-page",
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack"
