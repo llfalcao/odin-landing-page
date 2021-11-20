@@ -1,7 +1,12 @@
 @import url('framework.css');
 
-.section-wrapper {
+.wrapper {
   max-width: 1360px;
+}
+
+.header .wrapper .logo,
+.footer .logo {
+  padding-right: 0.5rem;
 }
 
 .logo {
@@ -69,19 +74,141 @@
   font-weight: 600;
 }
 
-.quote h2 {
+.quote__main {
   font-weight: 300;
 }
 
-.cta button {
+.cta .btn {
   font-size: 1.1rem;
 }
 
-.cta .section-wrapper {
+.cta .wrapper {
   max-width: 1000px;
 }
 
 .cta__subtext {
   margin-top: 4px;
   font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 1280px) {
+  .gallery .wrapper {
+    width: 100vw;
+    padding: 2rem;
+  }
+
+  .gallery__container {
+    overflow-x: auto;
+    padding-bottom: 2rem;
+    scrollbar-width: thin;
+    padding-right: 0;
+  }
+
+  .gallery__item {
+    min-width: 250px;
+  }
+
+  .cta .wrapper {
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    margin: 5rem auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .logo,
+  .header .navigation {
+    padding: 0;
+  }
+
+  .header .wrapper {
+    max-width: 90%;
+  }
+
+  .hero {
+    animation: none;
+  }
+
+  .hero__title {
+    font-size: 36px;
+  }
+
+  .hero__subtext {
+    font-size: 16px;
+  }
+
+  .gallery__item {
+    min-width: 200px;
+    height: 300px;
+  }
+
+  .quote__main {
+    font-size: 32px;
+  }
+
+  .cta .wrapper {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: calc(100% - 4rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .header .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1rem 1rem;
+    column-gap: 2rem;
+  }
+
+  .header .btn {
+    background: none;
+    padding: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  .hero .wrapper {
+    margin: 2rem 0;
+  }
+
+  .hero__text {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .hero__title {
+    font-size: 28px;
+  }
+
+  .hero__subtext {
+    font-size: 14px;
+    max-width: 90%;
+  }
+
+  .quote .wrapper {
+    padding: 3rem;
+  }
+
+  .quote__main {
+    font-size: 24px;
+  }
+
+  .footer .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    padding-bottom: 1rem;
+  }
+
+  .footer .logo {
+    justify-content: center;
+    flex-grow: 0;
+  }
+
+  .footer__contact a {
+    padding: 0 0.5rem;
+  }
 }
